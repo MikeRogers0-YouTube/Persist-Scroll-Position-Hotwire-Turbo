@@ -1,5 +1,12 @@
-<nav>
-  <a href="/">Home</a>
-  <a href="/about">About</a>
-  <a href="/posts">Posts</a>
+<nav class="sidebar__nav">
+  {% for i in (1..10) %}
+    <ul>
+      <li>Item {{i}}</li>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/posts">Posts</a></li>
+      </ul>
+    </ul>
+  {% endfor %}
 </nav>

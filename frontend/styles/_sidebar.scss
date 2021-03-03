@@ -1,0 +1,7 @@
+.sidebar {}
+
+.sidebar__nav {
+  max-height: 50vh;
+  padding: map-get($spacers, 3) 0;
+  overflow: scroll;
+}
