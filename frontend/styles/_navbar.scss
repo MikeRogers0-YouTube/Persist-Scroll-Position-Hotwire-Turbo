@@ -1,6 +1,8 @@
-.sidebar {}
+.navbar {}
 
-.sidebar__nav {
+.navbar__nav {
+  @extend .bg-light, .rounded, .shadow;
+
   max-height: 50vh;
   padding: map-get($spacers, 3) 0;
   overflow: scroll;

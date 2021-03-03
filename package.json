@@ -31,6 +31,7 @@
     "webpack-manifest-plugin": "^2.1.0"
   },
   "dependencies": {
+    "@hotwired/turbo": "^7.0.0-beta.4",
     "bootstrap": "^5.0.0-beta2"
   }
 }
